@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@CrossOrigin(origins = "https://app-saver.netlify.app")
+@CrossOrigin(origins = "http://localhost:4200")
 @Api
 @RestController
 @RequestMapping("/outcomes")
